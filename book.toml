@@ -1,0 +1,22 @@
+[book]
+title = "LCPU 学习组文档"
+authors = ["Linux Club of Peking University"]
+description = "LCPU学习组公共文档"
+language = "zh_cn"
+multilingual = false
+src = "src"
+
+[output.html]
+mathjax-support = true
+site-url = "doc.lcpu.dev/learn"
+git-repository-url = "https://github.com/lcpu-club/learn"
+edit-url-template = "https://github.com/lcpu-club/learn/edit/main/{path}"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
