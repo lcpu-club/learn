@@ -25,7 +25,7 @@
 - [2022秋后端组规划](Backend/Plans/2022fall.md)
 - [Go](Backend/Go/readme.md)
 	- [学习路径](Backend/Go/tutorial.md)
-	- [第一周checkpoint](Backend/Go/checkpoint.md)
+	- [Checkpoint](Backend/Go/checkpoint.md)
 	- [参考资料]()
 	- [入门项目]()
 - [Rust]()
