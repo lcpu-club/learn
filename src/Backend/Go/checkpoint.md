@@ -42,3 +42,23 @@ git push http://0.study-group-judger.lcpu.dev/你的学号
 curl "http://0.study-group-judger.lcpu.dev/get-result?id=你的学号"
 # The output should reflect the judge result
 ```
+
+## 可能会用到的标准库
+
+```Go
+    "encoding/gob"
+    "encoding/json"
+    "io"
+    "io/ioutil"
+    "net/http"
+    "os"
+    "sort"
+    "strconv"
+    "sync"
+    "time"
+```
+
+## 可能有用的资料
+
+1. HTTP Methods: `https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods`
+2. （了解）什么叫线程争用？: `https://stackoverflow.com/questions/1970345/what-is-thread-contention`
