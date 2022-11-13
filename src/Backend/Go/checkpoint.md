@@ -58,7 +58,14 @@ curl "http://0.study-group-judger.lcpu.dev/get-result?id=你的学号"
     "time"
 ```
 
+## 出题人注释
+
+1. Golang 的 json.Marshal 在传入长度为 0 的 slice 时，获得的结果是 []byte("NULL")；但是我们预期的结果是 byte("[]")，所以这里需要特别处理一下；
+2. 关于数据的“持久化”，指的是在每次接收到新数据后，及时地将其保存至硬盘等非易失性介质。对于这一过程，评测机通常会给予一个 50 ms 的宽限期。关于保存至哪里，我们通过环境变量传入了一个临时文件地址；您可以尝试使用其余地址，但是评测机将不会为您处理临时文件的回收；这一过程为避免竞争读写，通常需要加锁；但是目前我们评测时假定不会同时有两个请求到达您编写的服务。
+3. 
+
 ## 可能有用的资料
 
 1. HTTP Methods: [Mozilla开发者文档](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-2. （了解）什么叫线程争用？: [StackOverflow上的答案](https://stackoverflow.com/questions/1970345/what-is-thread-contention)
+2. 什么是JSON: [Mozilla开发者文档](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+3. （了解）什么叫线程争用？: [StackOverflow上的答案](https://stackoverflow.com/questions/1970345/what-is-thread-contention)
