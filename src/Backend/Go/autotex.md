@@ -1,6 +1,6 @@
-# autotex developmet wiki
+# AutoTeX Developmet Wiki
 
-## What is autotex
+## What is AutoTeX
 
 A tool to compile TeX files, it can be used in PCs, servers, and clusters.
 
@@ -10,7 +10,7 @@ It automatically detects the TeX environment or sets up its own side-effectless 
 
 Mass automatic compilation and automatic artifact delivery are supported.
 
-## Components of autotex
+## Components of AutoTeX
 
 ### Configuration Parser
 
@@ -51,6 +51,6 @@ Provides a command line interface, APIs, and code editor extension
 - pdfTeX
 - LuaLaTeX
 
-## Configures supported by autotex
+## Configures supported by AutoTeX
 
 TODO
