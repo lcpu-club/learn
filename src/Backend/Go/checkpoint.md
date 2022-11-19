@@ -67,5 +67,12 @@ curl "http://0.study-group-judger.lcpu.dev/get-result?id=你的学号"
 ## 可能有用的资料
 
 1. HTTP Methods: [Mozilla开发者文档](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-2. 什么是JSON: [Mozilla开发者文档](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+2. 什么是JSON: [Mozilla开发者文档](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)，[如何在Golang中使用JSON](https://www.digitalocean.com/community/tutorials/how-to-use-json-in-go)
 3. （了解）什么叫线程争用？: [StackOverflow上的答案](https://stackoverflow.com/questions/1970345/what-is-thread-contention)
+
+## 对完全不了解web server的同学，有这些资料可以参考
+
+1. [Mozilla关于web server的文档](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
+2. [中文文档：用Golang实现简单服务器](https://cizixs.com/2016/08/17/golang-http-server-side/)的前半部分
+3. [怎么用Golang搭建一个web server?](https://www.digitalocean.com/community/tutorials/how-to-make-an-http-server-in-go)
+4. [Golang官方tutorial](https://go.dev/doc/articles/wiki/)

@@ -2,7 +2,7 @@
 
 ## What is AutoTeX
 
-A tool to compile TeX files, it can be used in PCs, servers, and clusters.
+A tool to compile TeX files. It can be used in PCs, servers, and clusters.
 
 It facilitates the modulized and automatic TeX compilation by using configuration files, in which process it functions as a configuration manager and a command generator.
 
