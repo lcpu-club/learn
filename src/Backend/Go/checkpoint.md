@@ -37,7 +37,7 @@ touch main.go
 # When you finish:
 git add .
 git commit -m "Finish my project"
-git push --set-upstream http://0.study-group-judger.lcpu.dev/你的学号 main
+git push --set-upstream http://0.study-group-judger.lcpu.dev/你的学号 main（或者master，取决于本地branch的名称）
 # Input 你的学号 as username, get the password in Learning group
 curl "http://0.study-group-judger.lcpu.dev/get-result?id=你的学号"
 # The output should reflect the judge result
